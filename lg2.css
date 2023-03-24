@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Sans', sans-serif;
+    font-weight: bold;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(107,117,136)
+}
+footer{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.top{
+    width: 100%;
+   
+    background-color: rgb(107,117,136);
+    color: white;
+    text-align: center
+}
+.why{
+    width: 100%;
+}
+.bothSides{
+    width: 100%;
+}
+.screen1{
+    width: 50%;
+
+    float: left;
+    background-color: rgb(219,222,225);
+    text-align: center;
+    padding: 10px;
+}
+.screen2{
+    width: 50%;
+
+    float: left;
+    background-color: rgb(219,222,225);
+    text-align: center;
+    padding: 10px;
+}
+/*STLYING*/
+
+header button{
+    float: right;
+    background-color: white;
+    color: rgb(107,117,136);
+    border: 1px solid white;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+    height: 50px;
+}
+ul li{
+    float: center;
+    list-style: none;
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 45px;
+}
+.why{
+    text-align: center;
+}
+/*volunteer section*/
+.volunteer{
+    width: 100%;
+    color:rgb(30,35,45);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+/*footer/bottom section*/
+footer{
+    width: 100%;
+    clear: both;
+    background-color: rgb(31,36,46);
+    color: white;
+}
+.ph-list{
+    background-color: grey;
+    display: none;
+
+}
+.icons{
+    float: left;
+}
+.siteContribute{
+    float: left;
+}
+.levelgroudInfo{
+    float: right;
+}
+.copyright{
+    position:relative;
+    min-height: 100%;
+    padding: 25px;
+    margin: 25px;
+}
+@media screen and (min-width:1024px) {
+    footer{
+        background-color: pink;
+     }
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .screen1{
+        float: none;
+        width: 100%;
+    }
+    .screen2{
+        float: none;
+        width: 100%;
+    }
+    }
+@media screen and (max-width: 767px) {
+    .screen1{
+        float: none;
+        width: 100%;
+    }
+    .screen2{
+        float: none;
+        width: 100%;
+    }
+    .ph-list{
+        display: block;
+    }
+    h5, h6, nav ul li, .why  {
+        display: none;
+    }
+    }
